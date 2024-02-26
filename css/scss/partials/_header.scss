@@ -1,0 +1,36 @@
+header{
+    width:$w;
+    background-color: $glavnaboja;
+    @include pozicioniranje;
+    #logo{
+        width: 90px;
+        img{
+            width:90px;
+            &:hover{  
+                background-color:$trecaboja;
+                opacity: 0.4;
+                transition:0.5s ease;
+            }
+           
+        }
+    }
+    nav{
+        width:450px;
+        height:100px;
+        @include pozicioniranje3;
+        justify-content: center;
+        ul{
+            @include pozicioniranje3;
+            li{
+                margin-left:20px;
+                a{
+                    &:hover{
+                        color: $drugaboja;
+                        transition:0.5s ease;
+                    }
+                }
+            }
+        }
+    }
+    
+}

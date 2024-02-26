@@ -1,0 +1,54 @@
+#savijac{
+    width: $w;
+    #drzac{
+        width: $w;
+        @include pozicioniranje;
+    .forma{
+            width:700px;
+            margin:50px 0px;
+        form{
+            fieldset{
+                padding:5px 15px;
+                .blokovi{
+                    width:$w;
+                    text-align: center;
+                    #ime{
+                        width: $w;
+                        margin:10px 0px;
+                        padding:5px;
+                        outline:0;
+                    }
+                    #lastname{
+                        width: $w;
+                        margin:10px 0px;
+                        padding:5px;
+                        outline:0;
+                    }
+                    #mail{
+                        width: $w;
+                        margin:10px 0px;
+                        padding:5px;
+                        outline:0;
+                    }
+                    textarea{
+                        width:$w;
+                        margin:10px 0px;
+                        outline:0;
+                        resize:none;
+                    }
+                }
+            }
+        }
+    }
+        .info{
+            @include pozicioniranje2;
+            .blokovi{
+                width:$w;
+                margin:20px 0px;
+                span{
+                    color:$drugaboja;
+                }
+            }
+        }
+    }
+}

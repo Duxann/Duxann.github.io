@@ -1,0 +1,35 @@
+@mixin pozicioniranje($fd:row, $jc:space-around, $ai:center, $fw:wrap){
+    display: $f;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap:$fw;
+}
+@mixin pozicioniranje2($fd:column, $jc:space-around, $ai:center, $fw:wrap){
+    display: $f;
+    flex-direction: column;
+    justify-content: $jc;
+    align-items:$ai;
+    flex-wrap: $fw;
+}
+@mixin pozicioniranje3($fd:row, $jc:space-around, $ai:center, $fnw:nowrap){
+    display: $f;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap:$fnw;
+}
+@mixin pozicioniranje4($fd:row, $sb:space-between, $ai:center, $fw:wrap){
+    display: $f;
+    flex-direction: $fd;
+    justify-content: $sb;
+    align-items:$ai;
+    flex-wrap: $fw;
+}
+@mixin pozicioniranje5($fd:column, $jc:space-around, $fs:flex-start, $fw:wrap){
+    display: $f;
+    flex-direction: column;
+    justify-content: $jc;
+    align-items:$fs;
+    flex-wrap: $fw;
+}
