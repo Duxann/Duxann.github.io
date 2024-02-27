@@ -1,0 +1,214 @@
+@media screen and (max-width:1870px){
+    /*prvi blok*/
+    #pocetaka .blokprvi, #pocetak .blokdrugi{
+        margin:0px 70px;
+    }
+    #pocetak .blokprvi div h2{
+        font-size:25px;
+    }
+    #pocetak .blokprvi div h1{
+        font-size:50px;
+    }
+    #pocetak .blokdrugi .tekst h2{
+        font-size:17px;
+    }
+    /*drugi blok*/
+    main #polje #omeni .mi h2{
+        font-size:17px;
+    }
+    main #polje #pogled .opis h3{
+        font-size:25px;
+    }
+    .naslov h1{
+        font-size:30px;
+    } 
+}
+@media screen and (max-width:1643px){
+    /*prvi blok*/
+    #pocetak .blokprvi{
+        text-align: center;
+        padding:0px;
+        height:220px;
+    }
+    #pocetak .blokdrugi{
+        text-align:center;
+        height:300px;
+    }
+    #pocetak{
+        padding:0px;
+    }
+    /*peti blok*/
+    #savijac #drzac .info{
+        margin-left:50px;
+    }
+}
+@media screen and (max-width:1400px){
+    /*drugi blok*/
+    main #polje #pogled .opis h3{
+        font-size:22px;
+    }
+    main #polje #pogled .opis{
+        width:450px;
+    }
+    main #polje #pogled .opis a{
+        font-size:20px;
+    }
+    /*peti blok*/
+    #savijac #drzac .info{
+        margin-left:0px;
+    }
+}
+@media screen and (max-width:1300px) {
+    /*drugi blok*/
+    main #polje #pogled .ja{
+        width:260px;
+    }
+    main #polje #pogled .ja img{
+        width:260px;
+    }
+    main #polje #pogled{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    main #polje #pogled .opis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    main #polje #pogled .opis #butonsi{
+            display: flex;
+            flex-direction: column;
+    }
+    main #polje #pogled .opis #butonsi a{
+        margin-top:20px;
+        width:200px;
+        text-align: center;
+    }
+    main #polje #pogled .opis h3{
+        text-align: center;
+    }
+    main #polje #pogled .opis{
+        width:350px;
+    }
+    main #polje .brok{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        margin: 0px auto;
+    }
+    main #polje{
+        width:80%;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width:1050px){
+    /*nulti blok*/
+    header nav{
+        width:100%;
+        height:70px;
+    }
+    /*treci blok*/
+    #skil .blokcici{
+        width:80%;
+    }
+    #skil .blokcici p{
+        font-size: 17px;
+    }
+    #skil .blokcici h3{
+        font-size: 20px;
+    }
+    #skil .blokcici i{
+        font-size:27px;
+    }
+    /*sesti blok*/
+    footer #footercic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer #footercic .proporcija1{
+        order:2;
+        width:100%;
+        margin:0px;
+    }
+    footer #footercic .proporcija3{
+        order:1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+    footer #footercic .proporcija2{
+        order:3;
+    }
+}
+@media screen and (max-width:860px){
+    /*prvi blok*/
+    #pocetak .blokprvi div h2{
+        font-size:20px;
+    }
+    #pocetak .blokprvi div h1{
+        font-size:30px;
+    }
+    #pocetak .blokdrugi .tekst h2{
+        font-size:15px;
+        line-height:27px;
+    }
+    #pocetak .blokprvi{
+        height:200px;
+    }
+    #pocetak .blokdrugi{
+        margin:0px;
+    }
+    .naslov h1{
+        font-size:27px;
+    }
+    /*drugi blok*/
+    main #polje #pogled .opis h3{
+        font-size:20px;
+    }
+        /*treci blok*/
+        #skil .blokcici{
+            width:450px;
+        }
+        /*cetvrti blok*/
+        #services h2{
+            font-size: 20px;
+            padding-top:5px;
+        }
+}
+@media screen and (max-width:400px){
+    /*nulti blok*/
+    header nav ul li{
+        font-size: 14px;
+    }
+    /*prvi blok*/
+    #pocetak .blokprvi div h1{
+        font-size:25px;
+    }
+    #pocetak .blokprvi div h2{
+        font-size:17px;
+    }
+    #pocetak .blokdrugi .tekst h2{
+        font-size:14px;
+    }
+    /*drugi blok*/
+    main #polje #omeni .mi h2{
+        font-size:14px;
+    }
+    main #polje #pogled .opis h3{
+        font-size:17px;
+    }
+    main #polje #pogled .ja{
+        width:220px;
+    }
+    main #polje #pogled .ja img{
+        width:220px;
+    }
+}
