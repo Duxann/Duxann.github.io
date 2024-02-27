@@ -1,0 +1,79 @@
+footer{
+    width:$w;
+    background-color: $glavnaboja;
+        #paketic2{
+            right:40px;
+            bottom:20px;
+            position: fixed;
+            i{
+                color:$drugaboja;
+            }
+        }
+    #footercic{
+        width:$w;
+        @include pozicioniranje(row, space-between, center, wrap);
+        .proporcija1{
+            width:200px;
+            @include pozicioniranje(column, space-around, center, wrap);
+            margin:20px 0px;
+            a{
+                font-size: 20px;
+                padding:5px 0px;
+            }
+            i{
+                font-size: 15px;
+            }
+        }
+        .proporcija2{
+            width:370px;
+            @include pozicioniranje;
+            margin:20px 0px;
+            i{
+                &hover{
+                    color:$trecaboja;
+                }
+            }
+        }
+        .proporcija3{
+            @include pozicioniranje(column, space-around, flex-start, wrap);
+            width:200px;
+            margin:20px 0px;
+            a{
+                font-size: 20px;
+                padding:5px 0px;
+            }
+            i{
+                font-size: 15px;
+                &hover{
+                    color:$trecaboja;
+                }
+            }
+        }
+        .proporcija{
+            width: 90px;
+            img{
+                width:90px;
+                &:hover{  
+                    background-color:$trecaboja;
+                    opacity: 0.4;
+                    transition:0.5s ease;
+                }
+               
+            }
+        }
+        .zakljucak{
+            width:$w;
+            text-align: center;
+            margin-top: 10px;
+            h1{
+                font-size: 24px;
+                i{
+                    font-size: 20px;
+                }
+            }
+            span{
+                color:$drugaboja;
+            }
+        }
+    }
+}
