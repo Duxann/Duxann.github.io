@@ -1,0 +1,49 @@
+#pocetak{
+    width:$w;
+    @include pozicioniranje;
+    padding-top:100px;
+    .blokprvi, .blokdrugi{
+        padding-bottom:100px;
+        margin:50px 0px;
+        }
+    }
+    .blokprvi{
+        margin-left:50px;
+        height:440px;
+        @include pozicioniranje2(column, center, center, wrap);
+        div{
+            width:$w;
+            h2{
+                font-family: 'inter';
+                font-size: 30px;
+                color:$trecaboja;
+                padding:15px 0px;
+            }
+           h1{
+                font-family: 'inter';
+                font-size: 65px;
+                color:$drugaboja;
+                text-transform: uppercase;
+                padding:15px 0px;
+            }
+        }
+    }
+    .blokdrugi{
+        @include pozicioniranje2;
+        margin-right:50px;
+        width:500px;
+        height:440px;
+        .tekst{
+            width:$w;
+            h2{
+                font-size: 20px;
+                line-height: 40px;
+                color:$trecaboja;
+                span{
+                    font-family: 'inter';
+                    color:$drugaboja;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
